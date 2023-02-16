@@ -1,0 +1,23 @@
+{
+    "Alertbuttons": {
+        "screenshot": ".images\\alertbuttons-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".alert-buttons"
+    },
+    "BtnOK": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[contains(.,'OK')]"
+    },
+    "inputLegs": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'3. Legs:')]/../input"
+    }
+}
